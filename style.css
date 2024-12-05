@@ -72,6 +72,7 @@ body {
     padding: 10px 0;
     margin-top: 20px;
 }
+
 .section {
     display: none;
 }
@@ -80,18 +81,72 @@ body {
 .section.active {
     display: block;
 }
-.p
-{
+
+.p {
     font-size: 20px;
 }
-.logo
-{
-   
-    align-items:center;
-    justify-content:center;
 
+.logo {
+    align-items: center;
+    justify-content: center;
 }
-.logoimg
-{
-     max-width:100px;
+
+.logoimg {
+    max-width: 100px;
+}
+
+/* Newsletter Section */
+.newsletter {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e9eff5; /* Matches header background */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Matches content shadow */
+    text-align: center;
+}
+
+.newsletter h2 {
+    font-size: 24px;
+    color: #5114e0; /* Matches content headings */
+    margin-bottom: 10px;
+}
+
+.newsletter p {
+    font-size: 18px;
+    color: #333; /* Consistent with text color */
+    margin-bottom: 20px;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.newsletter input[type="email"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter button {
+    background-color: #1666c7; /* Matches navbar color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter button:hover {
+    background-color: #134ea4; /* Slightly darker for hover effect */
 }
