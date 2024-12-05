@@ -15,7 +15,8 @@ body {
 }
 
 .header .contact {
-    text-align: right;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .navbar {
